@@ -86,6 +86,6 @@ python3 -m http.server 8080
 
 ## 自动部署说明 (Deployment)
 
-仓库内置 `.github/workflows/deploy.yml`，每当代码推送至 `main` 分支时，GitHub Actions 将通过官方 `actions/configure-pages@v5`、`actions/upload-pages-artifact@v3` 与 `actions/deploy-pages@v4` 自动打包并发布至 GitHub Pages：
+仓库内置 `.github/workflows/deploy.yml`，每当代码推送至 `main` 分支时，GitHub Actions 将通过官方 `actions/configure-pages@v5`、`actions/upload-pages-artifact@v4` 与 `actions/deploy-pages@v4` 自动打包并发布至 GitHub Pages：
 
 - **生产环境地址**: [https://y4ho0.github.io/nestmind-ai/](https://y4ho0.github.io/nestmind-ai/)
